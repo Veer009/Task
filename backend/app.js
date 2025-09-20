@@ -7,7 +7,7 @@ const metaRoutes = require('./routes/metaRoutes');
 const app = express();
 
 app.use(cors({
-    origin:"https://task-frontend-3sa9.onrender.com/"
+    origin:"https://task-frontend-3sa9.onrender.com"
 }
 ));
 app.use(express.json());
